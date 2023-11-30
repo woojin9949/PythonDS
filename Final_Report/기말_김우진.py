@@ -1,5 +1,14 @@
 import networkx as nx
 import matplotlib.pyplot as plt
+from enum import Enum
+
+
+class Day(Enum):
+    Mon = "월"
+    Tue = "화"
+    Wed = "수"
+    Thu = "목"
+    Fri = "금"
 
 
 class Graph:
